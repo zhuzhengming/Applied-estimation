@@ -1,0 +1,8 @@
+prefix=/home/zhuzhengming/workspace/SLAM/devel
+
+Name: sparse_bundle_adjustment
+Description: Description of sparse_bundle_adjustment
+Version: 0.4.4
+Cflags: -I/home/zhuzhengming/workspace/SLAM/src/Creating-2D-laser-slam-from-scratch/lesson6/lib/sparse_bundle_adjustment/include
+Libs: -L${prefix}/lib -lsba
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/zhuzhengming/workspace/SLAM/install
+
+Name: lesson5
+Description: Description of lesson5
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp sensor_msgs nav_msgs tf

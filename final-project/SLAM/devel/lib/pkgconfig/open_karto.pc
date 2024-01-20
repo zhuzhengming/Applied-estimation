@@ -1,0 +1,8 @@
+prefix=/home/zhuzhengming/workspace/SLAM/devel
+
+Name: open_karto
+Description: Description of open_karto
+Version: 1.2.3
+Cflags: -I/home/zhuzhengming/workspace/SLAM/src/Creating-2D-laser-slam-from-scratch/lesson6/lib/open_karto/include -I/usr/include
+Libs: -L${prefix}/lib -lkarto /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+Requires: 

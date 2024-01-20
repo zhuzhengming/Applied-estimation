@@ -1,0 +1,8 @@
+prefix=/home/zhuzhengming/workspace/SLAM/devel
+
+Name: lesson5
+Description: Description of lesson5
+Version: 0.0.0
+Cflags: -I/home/zhuzhengming/workspace/SLAM/src/Creating-2D-laser-slam-from-scratch/lesson5/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp sensor_msgs nav_msgs tf

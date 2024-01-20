@@ -1,0 +1,2 @@
+slam_gmapping/gmapping:slam_gmapping/slam_gmapping:turtlebot3_slam
+-DCATKIN_WHILELIST_PACKAGES=gmapping -DCATKIN_DEVEL_PREFIX=/home/zhuzhengming/workspace/SLAM/devel -DCMAKE_INSTALL_PREFIX=/home/zhuzhengming/workspace/SLAM/install -G Unix Makefiles
